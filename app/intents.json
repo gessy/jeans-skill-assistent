@@ -1,0 +1,101 @@
+{
+  "includes": {
+    "schedule_haircut": [
+      "I need to make an appointment for a haircut",
+      "I would like to schedule an appointment to get a haircut",
+      "schedule haircut",
+      "can I have a haircut",
+      "i need haircut",
+      "schedule an appointment",
+      "and here is her like really long can I walk in like the next day",
+      "i want to schedule an appt"
+    ],
+    "cancel_appt": [
+      "i need to cancel my appointment",
+      "unfortunately i have to cancel",
+      "can I cancel"
+    ],
+    "bye": [
+      "bye",
+      "ok bye",
+      "good bye",
+      "thanks bye"
+    ],
+    "monday": [
+      "monday",
+      "on monday",
+      "this monday",
+      "next monday",
+      "oh monday",
+      "monday please",
+      "on monday please",
+      "this monday please"
+    ],
+    "tuesday": [
+      "tuesday",
+      "on tuesday",
+      "this tuesday",
+      "next tuesday",
+      "oh tuesday",
+      "tuesday please",
+      "on tuesday please",
+      "this tuesday please"
+    ],
+    "wednesday": [
+      "wednesday",
+      "on wednesday",
+      "this wednesday",
+      "next wednesday",
+      "oh wednesday",
+      "wednesday please",
+      "on wednesday please",
+      "this wednesday please"
+    ],
+    "thursday": [
+      "thursday",
+      "on thursday",
+      "this thursday",
+      "next thursday",
+      "oh thursday",
+      "thursday please",
+      "on thursday please",
+      "this thursday please"
+    ],
+    "friday": [
+      "friday",
+      "on friday",
+      "this friday",
+      "next friday",
+      "oh friday",
+      "friday please",
+      "on friday please",
+      "this friday please"
+    ],
+    "saturday": [
+      "saturday",
+      "on saturday",
+      "this saturday",
+      "next saturday",
+      "oh saturday",
+      "saturday please",
+      "on saturday please",
+      "this saturday please"
+    ],
+    "sunday": [
+      "sunday",
+      "on sunday",
+      "this sunday",
+      "next sunday",
+      "oh sunday",
+      "sunday please",
+      "on sunday please",
+      "this sunday please"
+    ]
+  },
+  "excludes": {
+    "cancel_appt": [
+      "yeah",
+      "and here is her like really long can I walk in like the next day"
+    ]
+  }
+}
