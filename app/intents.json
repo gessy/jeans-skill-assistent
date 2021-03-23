@@ -1,5 +1,94 @@
 {
   "includes": {
+
+    "ask_size_advise": [
+      "What size should be selected?",
+      "What size should I order?",
+      "What size should I be on Levi’s 29 or 30?",
+      "What size should I get?",
+      "What size should I wear?",
+      "What size will suit me?",
+      "What size would you suggest?",
+      "What size do you recommend?",
+      "What would be the best size in this pair?",
+      "Which size do you suggest?",
+      "Should I buy 36 or 38 size?",
+      "Should I get 30 or 32?",
+      "Should I get the same aize or go up a size?",
+      "Should I get the same aize or go down a size?",
+      "Should I size up or size down?",
+      "Should I order up a size?",
+      "Should I order down a size?",
+      "Would you suggest a 25 or 26?",
+      "Would you recommend a 30 or 38?",
+      "Would he be a 34 in flex jeans?"
+    ],
+
+    "size_clarification": [
+      "What size is",
+      "What size is equivalent to an size 10",
+      "What size would be equal to a size 6",
+      "What size will a 14 be?",
+      "What is size 14 in European sizes",
+      "What would a size 16 be?",
+      "How do these sizes equate to regular sizes?",
+      "What are the dimensions of these Jeans?"
+    ],
+
+    "length_clarification": [
+      "What is the length?",
+      "what are the lengths of inseams?"
+    ],
+
+    "inseam_clarification": [
+      "What is a medium inseam?",
+      "What is the inseam for women's S?",
+      "What are the measurements of the inseams?",
+      "What is the inseam supposed to be"
+    ],
+
+    "category_jeans": [
+      "Jeans",
+      "Jeans, please",
+      "I'm looking for a jeans",
+      "I am looking for a jeans",
+      "Looking for jeans",
+      "What jeans do you have?",
+      "Can you show me jeans?",
+      "Show me jeans, please",
+      "Are there any jeans?"
+    ],
+
+    "simple_color": [
+      "beige",
+      "white",
+      "turquoise",
+      "burgundy",
+      "navy",
+      "blue",
+      "yellow",
+      "green",
+      "brown",
+      "red",
+      "multicolor",
+      "orange",
+      "pink",
+      "taupe",
+      "grey",
+      "purple",
+      "black"
+    ],
+    "material": [
+      "linen",
+      "cotton",
+      "elastane",
+      "polyester",
+      "viscose",
+      "lycra",
+      "spandex",
+      "denim"
+    ],
+
     "schedule_haircut": [
       "I need to make an appointment for a haircut",
       "I would like to schedule an appointment to get a haircut",
@@ -10,11 +99,13 @@
       "and here is her like really long can I walk in like the next day",
       "i want to schedule an appt"
     ],
+
     "cancel_appt": [
       "i need to cancel my appointment",
       "unfortunately i have to cancel",
       "can I cancel"
     ],
+    
     "bye": [
       "bye",
       "ok bye",

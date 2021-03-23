@@ -8,16 +8,30 @@ context {
 
 external function updateIntents(intent: string, text: string?, confirmed: boolean): unknown;
 
-start node root
-{
-    do
-    {
+start node root {
+    do {
         #connectSafe($phone);
         #waitForSpeech(1000);
         #sayText("Church Barber and Apothecary! How can I help you?");
         wait *;
     }
 }
+
+
+digression ask_size_advise {
+    conditions {on #messageHasIntent("ask_size_advise");}
+    
+    do {
+        #sayText("Sorry, size advising function is not implemented yet.");
+    }
+
+    transitions {
+    }
+}
+
+
+//////////////////////////////////////////////////////////////////////////////
+
 
 digression schedule_haircut
 {
