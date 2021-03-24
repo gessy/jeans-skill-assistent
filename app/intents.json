@@ -1,7 +1,22 @@
 {
   "includes": {
 
+    "ask_recommendation": [
+      "Can you suggest something in black?",
+      "Need waist recommendation."
+    ],
+
     "ask_size_advise": [
+      "Should I buy 36 or 38 size?",
+      "Should I get 30 or 32?",
+      "Should I get the same aize or go up a size?",
+      "Should I get the same aize or go down a size?",
+      "Should I order up a size?",
+      "Should I order down a size?",
+      "Should I order 50's?",
+      "Should I size up or size down?",
+      "What size do you recommend?",
+      "What size do you suggest?",
       "What size should be selected?",
       "What size should I order?",
       "What size should I be on Levi’s 29 or 30?",
@@ -9,43 +24,77 @@
       "What size should I wear?",
       "What size will suit me?",
       "What size would you suggest?",
-      "What size do you recommend?",
       "What would be the best size in this pair?",
       "Which size do you suggest?",
-      "Should I buy 36 or 38 size?",
-      "Should I get 30 or 32?",
-      "Should I get the same aize or go up a size?",
-      "Should I get the same aize or go down a size?",
-      "Should I size up or size down?",
-      "Should I order up a size?",
-      "Should I order down a size?",
       "Would you suggest a 25 or 26?",
       "Would you recommend a 30 or 38?",
-      "Would he be a 34 in flex jeans?"
+      "Would he be a 34 in flex jeans?",
+      "Would a size 28 fit for these?"
+    ],
+
+    "ask_inseam_advise": [
+      "What size should be selected?"
     ],
 
     "size_clarification": [
+      "How do these sizes equate to regular sizes?",
+      "What are the dimensions of these Jeans?",
+      "What is size 14 in European sizes",
       "What size is",
       "What size is equivalent to an size 10",
       "What size would be equal to a size 6",
       "What size will a 14 be?",
-      "What is size 14 in European sizes",
       "What would a size 16 be?",
-      "How do these sizes equate to regular sizes?",
-      "What are the dimensions of these Jeans?"
+      "What would size 14 be equivalent to in those numbers?"
     ],
 
     "length_clarification": [
       "What is the length?",
+      "What is the length of",
       "what are the lengths of inseams?"
     ],
 
     "inseam_clarification": [
+      "What about the inseam?",
+      "What are the measurements of the inseams?",
       "What is a medium inseam?",
       "What is the inseam for women's S?",
-      "What are the measurements of the inseams?",
       "What is the inseam supposed to be"
     ],
+
+
+    "bottom_clarification": [
+      "Is it really wide at the bottom?",
+      "Are they really wide at the bottom?",
+      "Will they fit snug around boots",
+      "Are the legs wide enough to fit over boots?",
+      "Is this with the rolled hem?"
+    ],
+
+
+    "fit_clarification": [
+      "Does it run small?",
+      "Does it run big?",
+      "Do these run small?",
+      "Do these run big?",
+      "Do these run a size small in the waist?",
+      "Does it run a size small in the waist?",
+      "Do these run a size big in the waist?",
+      "Does it run a size big in the waist?",
+      "Do they run true to size?",
+      "Does it run true to size?",
+      "Would these be comfortable to wear at the waist like I'm supposed to wear them?",
+      "How would these fit for someone who wears a size 60w?"
+    ],
+
+    "shrink_expand_clarification": [
+      "Shrinkage a problem?",
+      "Does it expand from size 32 to 33 or 34 waist size?"
+    ],
+
+
+
+
 
     "category_jeans": [
       "Jeans",

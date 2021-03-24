@@ -1,5 +1,7 @@
 import "commonReactions/all.dsl";
 import "confirmIntent.dsl";
+import "commonIntentPreprocessorLib.dsl";
+
 
 context {
     input phone: string;
@@ -12,20 +14,31 @@ start node root {
     do {
         #connectSafe($phone);
         #waitForSpeech(1000);
-        #sayText("Church Barber and Apothecary! How can I help you?");
+        #sayText("Welcome to 12 Stories shop! How can I help you?");
+        goto loop;
+    }
+
+    transitions {
+        loop: goto loop;
+    }  
+}
+
+
+node loop {
+    do {
         wait *;
+    }
+
+    transitions {
+        loop: goto loop on true;
     }
 }
 
 
-digression ask_size_advise {
-    conditions {on #messageHasIntent("ask_size_advise");}
-    
+digression close {
+    conditions { on true tags: onclosed; }
     do {
-        #sayText("Sorry, size advising function is not implemented yet.");
-    }
-
-    transitions {
+        exit;
     }
 }
 
@@ -103,11 +116,9 @@ digression weekday
     }
 }
 
-digression bye
-{
+digression bye {
     conditions { on #messageHasIntent("bye"); }
-    do
-    {
+    do {
         #sayText("Have a nice day. Bye!");
     }
 }
